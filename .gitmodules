@@ -1,0 +1,8 @@
+[submodule "www/wp-content/themes/_s"]
+	path = www/wp-content/themes/_s
+	url = git@github.com:Automattic/_s.git
+	branch = master
+[submodule "www/wp-content/plugins/developer"]
+	path = www/wp-content/plugins/developer
+	url = git@github.com:Automattic/developer.git
+	branch = master
