@@ -11,3 +11,7 @@ cd wpdock
 docker-compose build
 docker up -d
 ```
+
+## LICENSE
+
+MIT License -- see [LICENSE](./LICENSE) file.
