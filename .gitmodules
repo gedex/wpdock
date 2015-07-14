@@ -6,3 +6,7 @@
 	path = www/wp-content/plugins/developer
 	url = git@github.com:Automattic/developer.git
 	branch = master
+[submodule "www/wp"]
+	path = www/wp
+	url = git@github.com:WordPress/WordPress.git
+	branch = master
