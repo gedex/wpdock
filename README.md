@@ -14,7 +14,7 @@ WordPress themes and plugins development using Docker and Compose.
 git clone --recursive https://github.com/gedex/wpdock.git
 cd wpdock
 docker-compose build
-docker up -d
+docker-compose up -d
 ```
 
 Now open `http://[docker-ip]/`. If you're using [boot2docker](http://boot2docker.io/),
