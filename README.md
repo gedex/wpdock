@@ -59,7 +59,7 @@ git checkout 4.2.2
 git checkout master
 ```
 
-## Stop the servives and container
+## Stop the services and container
 
 To stop services:
 
