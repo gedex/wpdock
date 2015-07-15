@@ -3,6 +3,11 @@ wpdock
 
 WordPress themes and plugins development using Docker and Compose.
 
+## Requirements
+
+* [Docker](https://docs.docker.com/installation/)
+* [Compose](https://docs.docker.com/compose/install/)
+
 ## Install
 
 ```
