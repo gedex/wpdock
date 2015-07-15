@@ -55,7 +55,9 @@ git checkout 4.2.2
 git checkout master
 ```
 
-## Stop the container
+## Stop the servives and container
+
+To stop services:
 
 ```
 docker-compose stop
@@ -70,14 +72,14 @@ When you want to kill all the containers:
 docker-compose kill
 ```
 
-If you start again, you'll be prompted with WP install again.
-
-## Remove completely
+## Remove containers completely
 
 ```
 docker-compose kill
 docker rm $(docker ps -a -q) # Warning: this will remove all containers
 ```
+
+If you start again, you'll be prompted with WP install again.
 
 ## Other services
 
