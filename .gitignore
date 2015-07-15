@@ -1,3 +1,4 @@
+www/local-config.php
 www/wp-content/*
 !www/wp-content/plugins/developer/
 !www/wp-content/themes/_s/
