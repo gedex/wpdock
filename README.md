@@ -61,7 +61,7 @@ git checkout master
 docker-compose stop
 ```
 
-You changes are persisted. So when you do `docker-compose up -d` again you'll get the same
+Your changes are persisted. So when you do `docker-compose up -d` again you'll get the same
 snapshot as before.
 
 When you want to kill all the containers:
