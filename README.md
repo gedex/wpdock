@@ -17,6 +17,41 @@ docker-compose build
 docker up -d
 ```
 
+Now open `http://[docker-ip]/`. If you're using [boot2docker](http://boot2docker.io/),
+then replace `[docker-ip]` with your boot2docker IP, check it with:
+
+```
+boot2docker ip
+```
+
+Run the famous WP setup from there. 
+
+## Running WP-CLI
+
+```
+docker-compose run wpcli --help
+```
+
+Install theme:
+
+```
+docker-compose run wpcli theme install twentyfifteen --activate
+```
+
+Install plugin:
+
+```
+docker-compose run wpcli plugin install woocommerce --activate
+```
+
+## Other services
+
+* Memcached
+* Redis
+* Elasticsearch
+
+See [docker-compose.yml](./docker-compose.yml) file for service settings.
+
 ## LICENSE
 
 MIT License -- see [LICENSE](./LICENSE) file.
