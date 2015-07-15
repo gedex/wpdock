@@ -55,7 +55,33 @@ git checkout 4.2.2
 git checkout master
 ```
 
+## Stop the container
+
+```
+docker-compose stop
+```
+
+You changes are persisted. So when you do `docker-compose up -d` again you'll get the same
+snapshot as before.
+
+When you want to kill all the containers:
+
+```
+docker-compose kill
+```
+
+If you start again, you'll be prompted with WP install again.
+
+## Remove completely
+
+```
+docker-compose kill
+docker rm $(docker ps -a -q) # Warning: this will remove all containers
+```
+
 ## Other services
+
+These services are provided in case you're developing plugins that interact with them.
 
 * Memcached
 * Redis
